@@ -4,11 +4,8 @@
 
 - [Description](#description)
 - [Features](#features)
+- [Technoloies Used](#Technologies_Used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
