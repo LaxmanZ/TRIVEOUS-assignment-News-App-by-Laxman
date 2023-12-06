@@ -1,5 +1,17 @@
 # News App By Laxman Bhajantri
 
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Description
+
 This is a News application built using ReactJS, CSS, Bootstrap, and Firebase authentication. The app fetches news articles from a news API and allows users to sign in/sign out using Firebase Authentication.
 
 ## Features
@@ -25,27 +37,25 @@ This is a News application built using ReactJS, CSS, Bootstrap, and Firebase aut
 
    ```bash
    git clone https://github.com/LaxmanZ/TRIVEOUS-assignment-News-App-by-Laxman.git
-   ```bash
+
+   ```
 
 2. Navigate to the project directory:
 
-  ```bash
-   cd news-app  
-  ```bash 
+```bash
+ cd news-app
+```
 
 3. Install dependencies:
 
-  ```bash
-   npm install  
-  ```bash
+```bash
+ npm install
+```
 
 4. Start the development server:
 
-  ```bash
-   npm start  
-  ```bash
+```bash
+ npm start
+```
 
-5. Open your browser and visit http://localhost:3000.  
-
-
-
+5. Open your browser and visit http://localhost:3000
