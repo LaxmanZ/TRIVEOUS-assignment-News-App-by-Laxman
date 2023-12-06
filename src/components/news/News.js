@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './News.css';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer'
 
 const News = () => {
   const [mynews, setMyNews] = useState([]);
@@ -18,7 +20,9 @@ const News = () => {
 
   return (
     <>
+      <Navbar />
       <h1 className="text-center my-3">Enjoy Daily Top - Headlines</h1>
+
       <div className="mainDiv">
         {mynews.map((ele) => {
           console.log(ele);
@@ -42,7 +46,7 @@ const News = () => {
                 />
                 <div class="card-body">
                   <h5 class="card-title">
-                    {ele.author == '' ? 'Janelle Ash' : ele.author}
+                    {ele.author === '' ? 'Janelle Ash' : ele.author}
                   </h5>
                   <p class="card-text">{ele.title}</p>
                   <a
@@ -59,6 +63,7 @@ const News = () => {
           );
         })}
       </div>
+      <Footer />
     </>
   );
 };

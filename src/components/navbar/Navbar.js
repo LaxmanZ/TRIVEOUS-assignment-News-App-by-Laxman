@@ -1,12 +1,13 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div className="container-fluid flex flex-between ">
           <a className="navbar-brand" href="/">
-            <b className='fs-3'>TechZoro</b>
+            <b className="fs-3">TechZoro</b>
           </a>
           <button
             className="navbar-toggler"
@@ -32,7 +33,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/news">
                   News
                 </a>
               </li>
@@ -40,7 +41,16 @@ const Navbar = () => {
           </div>
 
           <div className="">
-            <button className='px-4 py-2 br-2 rounded-pill bg-primary'>Login</button>
+            <button className="px-4 py-2 br-2 rounded-pill ">
+              <Link className="text-decoration-none" to="/login">
+                Login
+              </Link>
+            </button>
+            <button className="px-4 py-2 br-2 rounded-pill ">
+              <Link className="text-decoration-none" to="/signup">
+                Signup
+              </Link>
+            </button>
           </div>
         </div>
       </nav>
