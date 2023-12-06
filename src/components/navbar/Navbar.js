@@ -4,13 +4,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-4">
-        <div className="container-fluid flex flex-between">
+        <div className="container-fluid flex flex-between ">
           <a className="navbar-brand" href="/">
-            <img
-              src="/logo-white.png"
-              style={{ width: '150px', height: '70px' }}
-              alt="logo"
-            />
+            <b className='fs-3'>TechZoro</b>
           </a>
           <button
             className="navbar-toggler"
