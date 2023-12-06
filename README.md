@@ -39,20 +39,20 @@ This is a News application built using ReactJS, CSS, Bootstrap, and Firebase aut
 
 2. Navigate to the project directory:
 
-```bash
- cd news-app
-```
+   ```bash
+   cd news-app
+   ```
 
 3. Install dependencies:
 
-```bash
- npm install
-```
+   ```bash
+   npm install
+   ```
 
 4. Start the development server:
 
-```bash
- npm start
-```
+   ```bash
+   npm start
+   ```
 
 5. Open your browser and visit http://localhost:3000
