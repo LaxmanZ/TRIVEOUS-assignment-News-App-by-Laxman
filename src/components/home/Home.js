@@ -6,7 +6,7 @@ const Home = (props) => {
   return (
     <div>
       <News />
-      {/* <h2>{props.name ? `Wellcome - ${props.name}` : 'Login Please'}</h2> */}
+      <h2>{props.name ? `Wellcome - ${props.name}` : 'Login Please'}</h2>
     </div>
   );
 };
